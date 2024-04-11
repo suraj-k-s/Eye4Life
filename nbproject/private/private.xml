@@ -3,16 +3,20 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/D:/MainProject/Project/MainProject/web/indexContact.html.jsp</file>
-            <file>file:/D:/MainProject/Project/MainProject/web/Assets/Fileupload/NomineeUpload.jsp</file>
-            <file>file:/D:/MainProject/Project/MainProject/web/Admin/Place.jsp</file>
-            <file>file:/D:/MainProject/Project/MainProject/web/Guest/User.jsp</file>
+            <file>file:/D:/MainProject/Project/MainProject/web/Admin/HospitalVerification.jsp</file>
+            <file>file:/D:/MainProject/Project/MainProject/web/Hospital/Homepage.jsp</file>
+            <file>file:/D:/MainProject/Project/MainProject/web/Hospital/Head.jsp</file>
             <file>file:/D:/MainProject/Project/MainProject/web/Guest/Login.jsp</file>
-            <file>file:/D:/MainProject/Project/MainProject/web/index.html</file>
-            <file>file:/D:/MainProject/Project/MainProject/web/Guest/RecoveryPassword.jsp</file>
-            <file>file:/D:/MainProject/Project/MainProject/web/Assets/Fileupload/ResultUpload.jsp</file>
+            <file>file:/D:/MainProject/Project/MainProject/web/Admin/DeathVerification.jsp</file>
             <file>file:/D:/MainProject/Project/MainProject/web/Guest/OTP.jsp</file>
             <file>file:/D:/MainProject/Project/MainProject/web/Assets/Fileupload/UserUpload.jsp</file>
+            <file>file:/D:/MainProject/Project/MainProject/web/indexContact.jsp</file>
+            <file>file:/D:/MainProject/Project/MainProject/web/User/Homepage.jsp</file>
+            <file>file:/D:/MainProject/Project/MainProject/web/User/Head.jsp</file>
+            <file>file:/D:/MainProject/Project/MainProject/web/Admin/Place.jsp</file>
+            <file>file:/D:/MainProject/Project/MainProject/web/User/UserReport.jsp</file>
+            <file>file:/D:/MainProject/Project/MainProject/web/Admin/UserVerification.jsp</file>
+            <file>file:/D:/MainProject/Project/MainProject/web/index.html</file>
         </group>
     </open-files>
 </project-private>

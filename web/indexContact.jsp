@@ -37,7 +37,6 @@
         </style>
 
         <body>
-           <a href="index.html" class="link-button">Back</a>
         <%
             if (request.getParameter("txt_submit") != null) {
 
@@ -52,7 +51,8 @@
                         + " Team Eye For Life.";
 
                 boolean b = m.sendMail(mailid, subject, text);
-                String contact = "insert into tbl_contact(name,email,subject.message)values('" + request.getParameter("name") + "','" + request.getParameter("email") + "','" + request.getParameter("subject") + "','" + request.getParameter("message") + "')";
+                String contact = "insert into tbl_contact(name,email,subject,message)"
+                        + "values('" + request.getParameter("name") + "','" + request.getParameter("email") + "','" + request.getParameter("subject") + "','" + request.getParameter("message") + "')";
                 if (con.executeCommand(contact)) {
         %>
         <script>
@@ -82,7 +82,7 @@
                                         <div id="form-message-success" class="mb-4">
                                             Your message was sent, thank you!
                                         </div>
-                                        <form method="POST" id="contactForm" name="contactForm" class="contactForm">
+                                        <form method="POST" >
                                             <div class="row">
                                                 <div class="col-md-12">
                                                     <div class="form-group">

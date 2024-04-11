@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Apr 06, 2024 at 03:06 AM
+-- Generation Time: Apr 11, 2024 at 07:00 AM
 -- Server version: 10.4.28-MariaDB
 -- PHP Version: 8.0.28
 
@@ -173,6 +173,13 @@ CREATE TABLE `tbl_contact` (
   `message` varchar(1000) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
+--
+-- Dumping data for table `tbl_contact`
+--
+
+INSERT INTO `tbl_contact` (`contact_id`, `name`, `email`, `subject`, `message`) VALUES
+(1, 'dddff', 'sss@ygcvg', 'gcvygv', 'jhvhg');
+
 -- --------------------------------------------------------
 
 --
@@ -193,6 +200,28 @@ INSERT INTO `tbl_district` (`district_id`, `district_name`) VALUES
 (2, 'Kollam'),
 (4, 'Alappuzha'),
 (5, 'Thiruvananthapuram');
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `tbl_donation`
+--
+
+CREATE TABLE `tbl_donation` (
+  `donation_id` int(11) NOT NULL,
+  `donation_date` date NOT NULL,
+  `donation_name` varchar(1000) NOT NULL,
+  `donation_contact` varchar(100) NOT NULL,
+  `donation_amount` int(100) NOT NULL,
+  `donation_email` varchar(100) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+
+--
+-- Dumping data for table `tbl_donation`
+--
+
+INSERT INTO `tbl_donation` (`donation_id`, `donation_date`, `donation_name`, `donation_contact`, `donation_amount`, `donation_email`) VALUES
+(1, '2024-04-11', 'Suraj k S', '876543299', 10000, 'surajks28101999@gmail.com');
 
 -- --------------------------------------------------------
 
@@ -469,6 +498,12 @@ ALTER TABLE `tbl_district`
   ADD PRIMARY KEY (`district_id`);
 
 --
+-- Indexes for table `tbl_donation`
+--
+ALTER TABLE `tbl_donation`
+  ADD PRIMARY KEY (`donation_id`);
+
+--
 -- Indexes for table `tbl_donor`
 --
 ALTER TABLE `tbl_donor`
@@ -566,13 +601,19 @@ ALTER TABLE `tbl_complaint`
 -- AUTO_INCREMENT for table `tbl_contact`
 --
 ALTER TABLE `tbl_contact`
-  MODIFY `contact_id` int(11) NOT NULL AUTO_INCREMENT;
+  MODIFY `contact_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
 
 --
 -- AUTO_INCREMENT for table `tbl_district`
 --
 ALTER TABLE `tbl_district`
   MODIFY `district_id` int(10) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=6;
+
+--
+-- AUTO_INCREMENT for table `tbl_donation`
+--
+ALTER TABLE `tbl_donation`
+  MODIFY `donation_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
 
 --
 -- AUTO_INCREMENT for table `tbl_donor`

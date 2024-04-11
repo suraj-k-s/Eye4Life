@@ -29,7 +29,7 @@
     <!--    Stylesheets-->
     <!-- ===============================================-->
     <link href="../Assets/Template/User/assets/css/theme.css" rel="stylesheet" />
-
+   <link href="../Assets/Template/form.css" rel="stylesheet" />
   </head>
 
 
@@ -46,10 +46,9 @@
             <ul class="navbar-nav ms-auto pt-2 pt-lg-0 font-base">
                   <li class="nav-item px-2"><a class="nav-link" aria-current="page" href="Homepage.jsp">Home</a></li>
                 <li class="nav-item px-2"><a class="nav-link" aria-current="page" href="MyProfile.jsp">Profile</a></li>
-              <li class="nav-item px-2"><a class="nav-link" href="../Guest/RecoveryPassword.jsp">Change Password</a></li>
               
-               <li class="nav-item px-2"><a class="nav-link" href="NewAppointment.jsp">New Appointment</a></li>
-                      <li class="nav-item px-2"><a class="nav-link" href="AcceptUser.jsp">Accepters</a></li>
+               <li class="nav-item px-2"><a class="nav-link" href="NewAppointment.jsp">Appointment</a></li>
+                      <li class="nav-item px-2"><a class="nav-link" href="AcceptedUser.jsp">Users</a></li>
                <li class="nav-item px-2"><a class="nav-link" href="FindMatch.jsp">Find Match</a></li>
          
           
@@ -60,5 +59,5 @@
           </div>
         </div>
       </nav>
-        <br><br><br><br>
-        <div>
+        <br><br><br><br><br><br><br><br><br><br><br><br>
+        <div id="tab" align="center">

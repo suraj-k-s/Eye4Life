@@ -224,7 +224,7 @@
                         </select>
                     </td>
                     <td>   
-                        <input type="submit" name="btn_submit" value="Search">
+                        <input type="submit" name="btn_submit" value="Search" style="width: 100%">
                     </td>
                 </tr>
 

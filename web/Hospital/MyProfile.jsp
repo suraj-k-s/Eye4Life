@@ -44,7 +44,9 @@
                      
                 </tr>
                 <tr>
-                    <td colspan="2" align="center"><a href="EditProfile.jsp" value="">Edit Profile</a></td>
+                    <td ><a href="EditProfile.jsp" value="">Edit Profile</a></td>
+                    
+                    <td ><a href="ChangePassword.jsp" value="">Change Password</a></td>
                 </tr>
             </table>
                 
